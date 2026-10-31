@@ -1,9 +1,9 @@
 cask "taut" do
   arch intel: "-x64"
 
-  version "3.4.0"
-  sha256 arm:   "7d38820a4848c40bb46555d2fe7497503af660e261623f169da59f7aa80b58bd",
-         intel: "1efbad6e244a993b5d3d7c67b90c2c027e0ac4b291bcedd61913ddb1a5ed5f06"
+  version "3.4.1"
+  sha256 arm:   "682ba5573477a6e9136556ddff1fe85bd2e579fb24f8fac068bb46b708fd4f67",
+         intel: "0654a161b903c7d72f93924912a96056217f04563f19276e0bb5ab857f3cbd26"
 
   url "https://github.com/jeremy46231/taut/releases/download/desktop-v#{version}/taut-mac#{arch}.dmg"
   name "Taut"
